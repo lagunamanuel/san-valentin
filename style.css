@@ -47,3 +47,11 @@ button {
 .oculto {
     display: none;
 }
+.foto-portada {
+    width: 80%;        /* En móvil ocupará el 80% del ancho */
+    max-width: 350px;  /* En PC no pasará de 350px para no verse enorme */
+    height: auto;      /* Mantiene la proporción */
+    border-radius: 15px; /* Bordes redondeados quedan mejor */
+    margin-bottom: 20px; /* Espacio entre el GIF y la pregunta */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Una sombrita suave */
+}
